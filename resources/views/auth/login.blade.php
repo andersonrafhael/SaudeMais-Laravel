@@ -5,7 +5,7 @@
 @endpush
 
 @section('content')
-<div class="container">
+<div class="container" id="geral">
     <div id="corpo_login">
         <h1>Entrar</h1>
         <form method="POST" action="{{ route('login') }}">
